@@ -54,5 +54,20 @@ Sample output of same resulting image with various degrees of Elastic Distortion
 
 ![alt text](https://github.com/joaopauloucf/HWRecognizer/blob/main/Supporting/Report_Step3.gif "Distortions")
 
+The various Morphological Transformation are apply are Erosion, Dilation, Openning(Erosion followed by dilation) and Closing(Dilation followed by Erosion).
+
+Sample output of same resulting image with Morphological Transformations:
+
+Erosion:
+![alt text](https://github.com/joaopauloucf/HWRecognizer/blob/main/Supporting/Report_Step4.gif "Erosion")
+Dilation:
+![alt text](https://github.com/joaopauloucf/HWRecognizer/blob/main/Supporting/Report_Step5.gif "Dilation")
+Openning:
+![alt text](https://github.com/joaopauloucf/HWRecognizer/blob/main/Supporting/Report_Step6.gif "Openning")
+Closing:
+![alt text](https://github.com/joaopauloucf/HWRecognizer/blob/main/Supporting/Report_Step7.gif "Closing")
+
+
+
 
 
