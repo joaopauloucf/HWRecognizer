@@ -26,6 +26,7 @@ human handwritting is not perfect, our first task in generating syntec handwritt
 Displacement) and veritical displacement to each character. 
 
 Sample output from random variable placement:
+
 ![alt text](https://github.com/joaopauloucf/HWRecognizer/blob/main/Supporting/Report_Step1.gif "Variable Character Placement")
 
 ## Step 2: Underlay Generation: Random Sampling of Labels and Background
@@ -37,6 +38,7 @@ can be assigned to the Label randomly. Once the label is choosen and created, we
 We will also randomly assign noise on the entire image in the form of Salt & Pepper degradation to mimic poor quality images.
 
 Sample output from Underlay Generation:
+
 ![alt text](https://github.com/joaopauloucf/HWRecognizer/blob/main/Supporting/Report_Step2.gif "Underlay Generation")
 
 
