@@ -8,6 +8,10 @@ information filled out within specific zones of the document. Because of this, i
 the category of text generated, as we will be training different models to understand various categories typically found on 
 handwritten forms, think along the lines of Names, Addresses, Dates, ID numbers etc.
 
+Letter Format Samples         |  Structured Form Samples
+:----------------------------:|:-------------------------:
+![](https://github.com/joaopauloucf/HWRecognizer/blob/main/Supporting/Report_Step1.gif )      |  ![](https://github.com/joaopauloucf/HWRecognizer/blob/main/Supporting/Report_Step1.gif )
+
 
 ## Step 1: Overlay Generation - Random Sampling of Metadata, font/size assignment and variable placement of characters
 
