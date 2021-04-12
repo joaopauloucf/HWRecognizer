@@ -1,13 +1,4 @@
-### Setup Instructions ###
-
-* Download all contents within Handwritting Generator onto your local machine
-* Install all python packages that are required(requirements.txt)
-* Modify OUTPUT, FONT and LABEL file paths within the Config.ini to represent their location on your local machine
-* Modify InputPath within the Config.ini to represent their location on your machine
-* Modify any other Config.ini settings to achieve desired output
-
-
-### Handwritting Generator Summary ###
+# Handwritting Generator Summary #
 
 The goal of the handwriting generator is to create synthetic handwriting snippets which mimic real human handwriting.
 The reason for our pursuit of this goal is to generate a large sample size of training and validation snippets which
@@ -82,4 +73,15 @@ Closing:
 When we run the generator with a variety of metadata, the output stream is:
 
 ![alt text](https://github.com/joaopauloucf/HWRecognizer/blob/main/Supporting/Report_Step8.gif "Closing")
+
+
+
+### Setup Instructions ###
+
+* Download all contents within Handwritting Generator onto your local machine
+* Install all python packages that are required(requirements.txt)
+* Modify OUTPUT, FONT and LABEL file paths within the Config.ini to represent their location on your local machine
+* Modify InputPath within the Config.ini to represent their location on your machine
+* Modify any other Config.ini settings to achieve desired output
+
 
