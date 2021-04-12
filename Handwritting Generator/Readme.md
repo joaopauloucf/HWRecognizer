@@ -17,7 +17,7 @@ information filled out within specific zones of the document. Because of this, i
 the category of text generated,as we will be training different models to understand various categories typically found on 
 handwritten forms, think along the lines of Names, Addresses, Dates, ID numbers etc. 
 
-## Step 1: Random Sampling of Metadata, font/size assignment and variable placement of characters
+## Step 1: Overlay Generation - Random Sampling of Metadata, font/size assignment and variable placement of characters
 
 The generator will access a CSV file with all of the possible metadata that it can use to crete the snippet, randomly choosing
 one from the list. Once the metadata is chosen, it will then randomly assign a font to use. As part of the original project, 
@@ -29,7 +29,7 @@ Sample output from random variable placement:
 
 ![alt text](https://github.com/joaopauloucf/HWRecognizer/blob/main/Supporting/Report_Step1.gif "Variable Character Placement")
 
-## Step 2: Underlay Generation: Random Sampling of Labels and Background
+## Step 2: Underlay Generation - Random Sampling of Labels and Background
 
 Due to the need to create realistic form based handwritten examples, the generator will also have to create labels, lines and borders
 which align with realistic real world examples we expect the model to understand. The generator will access the first line of the CSV file,
@@ -41,5 +41,18 @@ noise on the entire image in the form of Salt & Pepper degradation.
 Sample output from Underlay Generation:
 
 ![alt text](https://github.com/joaopauloucf/HWRecognizer/blob/main/Supporting/Report_Step2.gif "Underlay Generation")
+
+## Step 3: Image distortions
+
+Once the Overlay and Underlay functions are complete, the resulting image will be the baseline image used to generate multiple variations via Elastic Distortions,
+Shearing, Skewing as well as various Morphological Transformations.
+
+The elastic distortions, shearing and skewing are all generated at the same time resulting in more realistic handwritting examples being generated. The elastic distortion
+will mimic on a random basis hand force and altering certain characters. The shearing and skewing will mimic the natural slanting and rotation which can be present as well.
+
+Sample output of same resulting image with various degrees of Elastic Distortions,Shearing and Skewing:
+
+![alt text](https://github.com/joaopauloucf/HWRecognizer/blob/main/Supporting/Report_Step3.gif "Distortions")
+
 
 
