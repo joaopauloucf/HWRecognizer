@@ -34,8 +34,9 @@ Sample output from random variable placement:
 Due to the need to create realistic form based handwritten examples, the generator will also have to create labels, lines and borders
 which align with realistic real world examples we expect the model to understand. The generator will access the first line of the CSV file,
 to choose from all of the possible labels that it can use, randomly choosing from the list. We will also have included 16 machine print fonts which
-can be assigned to the Label randomly. Once the label is choosen and created, we will border the image with either a line, a box or leave it as it is.
-We will also randomly assign noise on the entire image in the form of Salt & Pepper degradation to mimic poor quality images.
+can be assigned to the label randomly. The generator will also create a border on the image to mimic the borders typically found in a specific zone of 
+a structured form. The options are either a line, a box or leave it blank. To mimic poor image quality and sourcing issues, it will also randomly assign 
+noise on the entire image in the form of Salt & Pepper degradation.
 
 Sample output from Underlay Generation:
 
