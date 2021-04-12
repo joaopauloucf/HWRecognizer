@@ -25,6 +25,18 @@ over 200 .TTF and .OTF fonts were included; more can be added or some can be rem
 human handwritting is not perfect, our first task in generating syntec handwritting is to add random amounts of Kerning(Horizontal
 Displacement) and veritical displacement to each character. 
 
+Sample output from random variable placement:
 ![alt text](https://github.com/joaopauloucf/HWRecognizer/blob/main/Supporting/Report_Step1.gif "Variable Character Placement")
+
+## Step 2: Underlay Generation: Random Sampling of Labels and Background
+
+Due to the need to create realistic form based handwritten examples, the generator will also have to create labels, lines and borders
+which align with realistic real world examples we expect the model to understand. The generator will access the first line of the CSV file,
+to choose from all of the possible labels that it can use, randomly choosing from the list. We will also have included 16 machine print fonts which
+can be assigned to the Label randomly. Once the label is choosen and created, we will border the image with either a line, a box or leave it as it is.
+We will also randomly assign noise on the entire image in the form of Salt & Pepper degradation to mimic poor quality images.
+
+Sample output from Underlay Generation:
+![alt text](https://github.com/joaopauloucf/HWRecognizer/blob/main/Supporting/Report_Step2.gif "Underlay Generation")
 
 
