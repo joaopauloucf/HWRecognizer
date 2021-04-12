@@ -77,5 +77,9 @@ Closing:
 
 
 
+## Final Output
 
+When we run the generator with a variety of metadata, the output stream is:
+
+![alt text](https://github.com/joaopauloucf/HWRecognizer/blob/main/Supporting/Report_Step8.gif "Closing")
 
