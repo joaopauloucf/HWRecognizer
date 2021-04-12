@@ -25,6 +25,6 @@ over 200 .TTF and .OTF fonts were included; more can be added or some can be rem
 human handwritting is not perfect, our first task in generating syntec handwritting is to add random amounts of Kerning(Horizontal
 Displacement) and veritical displacement to each character. 
 
-![alt text]("https://github.com/joaopauloucf/HWRecognizer/blob/main/Supporting/Report_Step1.gif")
+![alt text](https://github.com/joaopauloucf/HWRecognizer/blob/main/Supporting/Report_Step1.gif "Variable Character Placement")
 
 
