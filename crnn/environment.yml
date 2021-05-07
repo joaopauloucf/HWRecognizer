@@ -10,8 +10,8 @@ dependencies:
   - pip:
     - sacred
     - opencv-python
-    - tensorflow-gpu>=2.0
-    - tensorflow-addons>=0.5
+    - tensorflow-gpu==2.1
+    - tensorflow-addons==0.9.1
     - git+https://github.com/solivr/taputapu.git#egg=taputapu
     - sphinx
     - sphinx-autodoc-typehints
