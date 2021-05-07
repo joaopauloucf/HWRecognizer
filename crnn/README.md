@@ -1,3 +1,5 @@
+All credit to [solivr](https://github.com/solivr/tf-crnn)
+
 # Text recognition with Convolutional Recurrent Neural Network and TensorFlow 2.0 (tf2-crnn)
 
 [![Documentation Status](https://readthedocs.org/projects/tf-crnn/badge/?version=latest)](https://tf-crnn.readthedocs.io/en/latest/?badge=latest)
