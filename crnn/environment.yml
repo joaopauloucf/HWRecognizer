@@ -1,0 +1,18 @@
+name: crnn-tf2
+dependencies:
+  - python=3.6
+  - imageio
+  - numpy
+  - tqdm
+  - pandas
+  - click
+  - pip
+  - pip:
+    - sacred
+    - opencv-python
+    - tensorflow-gpu>=2.0
+    - tensorflow-addons>=0.5
+    - git+https://github.com/solivr/taputapu.git#egg=taputapu
+    - sphinx
+    - sphinx-autodoc-typehints
+    - sphinx-rtd-theme
