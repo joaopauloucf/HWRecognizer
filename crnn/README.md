@@ -1,4 +1,4 @@
-All credit to [solivr](https://github.com/solivr/tf-crnn)
+All credit to [solivr](https://github.com/solivr/tf-crnn) as this is a fork of his tf-crnn project
 
 # Text recognition with Convolutional Recurrent Neural Network and TensorFlow 2.0 (tf2-crnn)
 
