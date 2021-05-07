@@ -1,0 +1,16 @@
+imageio
+numpy
+tqdm
+sacred
+opencv-python
+pandas
+click
+tensorflow-gpu
+taputapu
+
+[doc]
+sphinx
+sphinx-autodoc-typehints
+sphinx-rtd-theme
+sphinxcontrib-bibtex
+sphinxcontrib-websupport

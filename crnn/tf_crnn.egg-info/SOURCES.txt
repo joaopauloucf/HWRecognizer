@@ -1,0 +1,14 @@
+README.md
+setup.py
+tf_crnn/__init__.py
+tf_crnn/callbacks.py
+tf_crnn/config.py
+tf_crnn/data_handler.py
+tf_crnn/model.py
+tf_crnn/preprocessing.py
+tf_crnn.egg-info/PKG-INFO
+tf_crnn.egg-info/SOURCES.txt
+tf_crnn.egg-info/dependency_links.txt
+tf_crnn.egg-info/not-zip-safe
+tf_crnn.egg-info/requires.txt
+tf_crnn.egg-info/top_level.txt
