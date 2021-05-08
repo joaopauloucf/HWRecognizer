@@ -46,8 +46,7 @@ can be found on the [Results](https://github.com/joaopauloucf/HWRecognizer/tree/
 
 All credit to [solivr](https://github.com/solivr/tf-crnn) for this implementation of a Convolutional Recurrent Neural Network (CRNN) for scene text recognition and OCR.
 Adapting this for the project, the synthetic handwritten data generated was used as the training and validation sets. Over 35,000 images (500 MB) were used during the training. 
-The addition of more data would likely help the model but taking into consideration the cost to deploy an AWS g4dn.xlarge instance and time needed to train
-, we believed this to be sufficient. 
+The addition of more data would likely help the model but taking into consideration the cost to deploy an AWS g4dn.xlarge instance and time needed to train, we believed this to be sufficient. 
 
 In the future, it may also be beneficial to add both synthetic and real handwriting samples. As mentioned before, this sort of real 
 handwriting dataset is lacking for structured forms. With that said, even if the real handwriting samples are line-level(letter) and do not necessarily share the same 
