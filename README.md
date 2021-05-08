@@ -38,19 +38,20 @@ For the purposes of comparison, both AWS and Microsoft results were obtained for
 for their service and their well-documented API calls which allow us to obtain the required results without large effort. [Microsoft](https://docs.microsoft.com/en-
 us/azure/cognitive-services/computer-vision/vision-api-how-to-topics/call-read-api) provides a read ape which supports multiple languages and file formats. [AWS]
 (https://docs.aws.amazon.com/textract/latest/dg/what-is.html) provides two options for testing. The first is the API calls which are simple to implement, but the second
-is even easier as a [GUI](LINK) interface is available, allowing testing to be done without the need to write any code!
+is even easier as a [GUI](https://console.aws.amazon.com/textract/home?region=us-east-1#/demo) interface is available, allowing testing to be done without the need to write any code!
 
-The results from AWS and Microsoft were very good in regard to the test set. For AWS, as they had a WER of 10.6% and Microsoft was even better with an 8.5% WER. More details
-can be found on the [Results](LINK) page.
+The results from AWS and Microsoft were very good in regard to the test set. For AWS, a WER of 10.6% was achieved and Microsoft was even better with an 8.5% WER. More details
+can be found on the [Results](https://github.com/joaopauloucf/HWRecognizer/tree/main/Results) page.
 
 
 ## TF-CRNN Model
 
 All credit to [solivr](https://github.com/solivr/tf-crnn) for this implementation of a Convolutional Recurrent Neural Network (CRNN) for scene text recognition and OCR.
 Adapting this for the project, the synthetic handwritten data generated was used as the training and validation sets. Over 35,000 images (500 MB) were used during the training. 
-The addition of more data would likely help the model but taking into consideration the cost to deploy an AWS g4dn.xlarge instance, we believed this to be sufficient. In the 
-future, it may also be beneficial to add both synthetic and real handwriting samples. As mentioned before, this sort of real handwriting dataset is lacking for structured forms. 
-With that said, even if the real handwriting samples are line-level(letter) and do not necessarily share the same characteristics as handwriting found on a structured document, 
-it may bring diversity to the training set and improve overall performance. We plan on potentially running this test in the future.
+The addition of more data would likely help the model but taking into consideration the cost to deploy an AWS g4dn.xlarge instance and time needed to train
+, we believed this to be sufficient. In the future, it may also be beneficial to add both synthetic and real handwriting samples. As mentioned before, this sort of real 
+handwriting dataset is lacking for structured forms. With that said, even if the real handwriting samples are line-level(letter) and do not necessarily share the same 
+characteristics as handwriting found on a structured document, it may bring diversity to the training set and improve overall performance. We plan on potentially running this 
+test in the future.
 
 
