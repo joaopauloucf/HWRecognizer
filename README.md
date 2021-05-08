@@ -32,6 +32,10 @@ information filled out within specific zones of the document. Because of this, i
 the category of text generated, as we will be training different models to understand various categories typically found on 
 handwritten forms. Some common examples are Names, Addresses, Dates, ID numbers etc.
 
+The Synthetic handwriting that is generated attempts to mimic how handwritten data is found structured forms, which is a mix of a machine print tag along
+with the handwritten data. There is also typically either a line or box present around the handwritten data, which the generator creates to keep the samples
+in line with what is seen on structured documents. For a more detailed explaination, please visit the [Synthetic Handwriting Generator Page](https://github.com/joaopauloucf/HWRecognizer/tree/main/Handwritting%20Generator)
+
 ## Obtaining Results
 
 For the purposes of comparison, both AWS and Microsoft results were obtained for the test set. These were chosen due to the easy with which we can sign up
