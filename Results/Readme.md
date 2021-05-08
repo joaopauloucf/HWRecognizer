@@ -1,6 +1,6 @@
 
-Images                        |  AWS                      | Azure                     |Opentext(Legacy ICR)       |HWRecognizer
-:----------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
+Images                        |  AWS                      | Azure                       |HWRecognizer
+:----------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
 ![](https://github.com/joaopauloucf/HWRecognizer/blob/main/Results/Image/Name_10_Rose%20Dawson.JPG) | Rose Dawson | Rose Dawson
 ![](https://github.com/joaopauloucf/HWRecognizer/blob/main/Results/Image/Name_11_Amy%20Anderson.JPG) | Any Anderm | Amy Andedm
 ![](https://github.com/joaopauloucf/HWRecognizer/blob/main/Results/Image/Name_12_Ram%20Martinez.JPG) | Ram Martinez | Kom Martinez
