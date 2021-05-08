@@ -25,7 +25,9 @@ generalized algorithm which does very well on most machine print and fairly well
 The purpose of the synthetic handwriting generator is to create synthetic handwriting snippets which mimic real human handwriting.
 The reason for the pursuit of this goal is to generate a large sample size of training and validation snippets which
 can be used by a machine learning model. While some real-world sample sets exist, typically the data available focuses on line level (letter format)
-handwritten samples which to not translate well for the use case. Since the target use case will be structured forms with handwritten
+handwritten samples which to not translate well for the use case. 
+
+Since the target use case will be structured forms with handwritten
 information filled out within specific zones of the document. Because of this, it was important that the generator can control 
 the category of text generated, as we will be training different models to understand various categories typically found on 
 handwritten forms. Some common examples are Names, Addresses, Dates, ID numbers etc.
