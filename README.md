@@ -35,7 +35,7 @@ handwritten forms. Some common examples are Names, Addresses, Dates, ID numbers 
 ## Obtaining Results
 
 For the purposes of comparison, both AWS and Microsoft results were obtained for the test set. These were chosen due to the easy with which we can sign up
-for their service and their well-documented API calls which allow us to obtain the required results without large effort. [Microsoft](https://docs.microsoft.com/en-
+for their service and their well-documented API calls which allow us to obtain the required results without large effort.[Microsoft](https://docs.microsoft.com/en-
 us/azure/cognitive-services/computer-vision/vision-api-how-to-topics/call-read-api) provides a read ape which supports multiple languages and file formats. [AWS](https://docs.aws.amazon.com/textract/latest/dg/what-is.html) provides two options for testing. The first is the API calls which are simple to implement, but the second
 is even easier as a [GUI](https://console.aws.amazon.com/textract/home?region=us-east-1#/demo) interface is available, allowing testing to be done without the need to write any code!
 
