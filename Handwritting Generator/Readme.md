@@ -1,4 +1,4 @@
-# Handwritting Generator#
+# Handwritting Generator #
 
 The goal of the handwriting generator is to create synthetic handwriting snippets which mimic real human handwriting.
 The reason for our pursuit of this goal is to generate a large sample size of training and validation snippets which
